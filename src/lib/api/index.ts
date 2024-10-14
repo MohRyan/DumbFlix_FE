@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: `${import.meta.env.VITE_BASE_URL}`,
+  baseURL: `https://dumb-flix-be.vercel.app/`,
 });
 export const APIMovie = axios.create({
   baseURL: "https://api.themoviedb.org/3/",
