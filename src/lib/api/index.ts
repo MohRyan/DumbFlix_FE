@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: `${import.meta.env.BASE_URL}`,
+  baseURL: `${import.meta.env.VITE_BASE_URL}`,
 });
 export const APIMovie = axios.create({
   baseURL: "https://api.themoviedb.org/3/",
